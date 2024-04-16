@@ -1,0 +1,75 @@
+body { 
+    background-color: grey;   
+    color: aliceblue; /*text color*/
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h5{
+    text-align: center;
+    font-style: italic;
+    background-color: darkgray;
+    opacity: 85%;
+}
+a{
+    color:aqua ;
+}
+
+img{
+    border: 2px;
+    padding: 3px;
+    margin: 5px;
+    /*centers stuff */
+    /*display: block;
+    margin: auto;*/
+}
+.imgcenter{  /*this is centering the image. You don't need the dot when putting it down. */
+    display: block;
+    margin: auto; 
+}
+.missionstatement{  /* we are making new style. .new style */
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 14;
+    font-weight: bold;
+    text-align: center;
+}
+
+.work{
+    text-align: center;
+}
+.border{
+    
+    width: 100%;
+    height: 50px;
+}
+.leftbox{
+   
+    float: left;
+    width: 33%;
+    height: 50px;
+    text-align: center;
+}
+.middlebox{
+    
+    float:left;
+    width: 33%;
+    height: 50px;
+    text-align: center;
+}
+.rightbox{
+   
+    float: left;
+    width: 33%;
+    height: 50px;
+    text-align: center;
+}
+.anchor{
+    text-align: center;
+}
+.professional{
+    text-align: center;
+}
